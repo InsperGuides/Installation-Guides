@@ -7,9 +7,12 @@ Instalar os drivers das GPUs da Nvidia no linux nem sempre é uma tarefa trivial
 ### Passo 1: Verificar qual as informações da sua GPU:
 
 Usaremos o seguinte comando no bash para descobrir qual é a versão da placa de vídeo instalada no sistema:
-`hwinfo --gfxcard --short`
 
-![images]([https://raw.githubusercontent.com/wiiro/Installing-Nvidia-Driver-On-Linux/master/images/Hardware%20Check_hwinfo.png](https://raw.githubusercontent.com/wiiro/Installing-Nvidia-Driver-On-Linux/master/images/Hardware%20Check_hwinfo.png)
+<br/>
+`hwinfo --gfxcard --short`
+<br/>
+
+![hwinfo](images/hardware_check_hwinfo.png)
 
 **Software e Update Selection2.png**)
 
@@ -52,7 +55,12 @@ Reinicie o linux:
 ### Passo 3: Verificar se o driver foi instalado com sucesso
 
 Após a instalação é a forma mais simples de conferir se o driver foi instalado com sucesso é através do comando:
-`nvidia-smi`
+
+</n>
+
+```
+nvidia-smi
+```
 
 Ele irá te mostrar um detalhamento da sua placa:
 
