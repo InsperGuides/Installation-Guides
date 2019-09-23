@@ -1,7 +1,6 @@
 ---
 title: Laboratório Ágil
 date: Outubro 2019
-
 ---
 
 Instalação driver Nvidia no Linux
@@ -33,8 +32,10 @@ sudo lshw -C display
 ### Passo 2: Instalar os Drivers da GPU usando o GUI do Linux
 
 Abra as aplicações do Linux, ou pressione a tecla e pesquise por: 
-`update manager`
-**{print  do ícone aqui}**
+```
+update manager
+```
+![lshw](images/software_e_update_icon_print.png)
 
 Após isso na parte de software & updates, selecione a aba **Additional Drivers** para abrir 
 a lista de drivers disponíveis.
