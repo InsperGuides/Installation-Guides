@@ -39,9 +39,11 @@ update manager
 
 Após isso na parte de software & updates, selecione a aba **Additional Drivers** para abrir 
 a lista de drivers disponíveis.
-**{print da lista dos drivers adicionais aqui}**
+![lshw](images/software_e_update_selection2.png)
 
 Aqui será listado diversos Drivers da Nvidia, porém nem todos serão compatíveis com a sua placa, para descobrir qual é a melhor opção consulte o site da [Nvidia.](https://www.nvidia.com.br/Download/index.aspx?lang=br)
+
+![lshw](nvidia_site.png)
 
 Coloque o seu S.O. e a versão da placa de vídeo que consultamos no **Passo 1**.
 
