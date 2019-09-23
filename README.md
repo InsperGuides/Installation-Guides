@@ -90,7 +90,7 @@ Ele irá te mostrar um detalhamento da sua placa:
 
 Ao instalar esse drivers, podem acontecer alguns erros, durante ou no final do processo. Alguns vão apenas te impossibilitar de usar algumas funções da placa, outros irão te impossibilitar instalar o drive.
 
-## Erro 1:
+# Erro 1:
 
 `WARNING: Unable to find suitable destination to install 32-bit compatibility libraries`
 
@@ -101,7 +101,7 @@ sudo dpkg --add-architecture i386
 sudo apt update
 sudo apt install libc6:i386
 ```
-## Erro 2:
+# Erro 2:
 
 `E:  Unmet dependencies.  Try  'apt --fix-broken install'  with  no packages (or specify a solution).`
 
@@ -111,7 +111,7 @@ Pare resolver é simples, você pode forçar a instalação do seguinte pacote:
 
 `sudo dpkg -i --force-overwrite /var/cache/apt/archives/nvidia-396_396.44-0ubuntu1_amd64.deb`
 
-## Erro 3:
+# Erro 3:
 
 A instalação completa sem nenhum erro, seja durante o processo de download ou de compilação, porém ao executar o **Passo 3** ela retorna um erro ou não mostra nenhum driver da Nvidia instalado, isso pode ser ocasionado por conta do Mok Manager* não consegui acessar os pacotes.
 
