@@ -1,5 +1,12 @@
+---
+title: Laboratório Ágil
+date: Outubro 2019
+
+---
+
 Instalação driver Nvidia no Linux
 ===
+
 Instalar os drivers das GPUs da Nvidia no linux nem sempre é uma tarefa trivial. Nesse guia espero esclarecer alguns pontos para que seja mais fácil para você entender o que está acontecendo durante a instalação.
 
 ---
@@ -8,18 +15,18 @@ Instalar os drivers das GPUs da Nvidia no linux nem sempre é uma tarefa trivial
 
 Usaremos o seguinte comando no bash para descobrir qual é a versão da placa de vídeo instalada no sistema:
 
-<br/>
-`hwinfo --gfxcard --short`
-<br/>
+```
+hwinfo --gfxcard --short
+```
 
 ![hwinfo](images/hardware_check_hwinfo.png)
 
-**Software e Update Selection2.png**)
+ou
 
-**{print do comando executado com sucesso aqui} **
-
-`sudo lshw -C display` 
-**{print do comando executado com sucesso aqui} **
+``` 
+sudo lshw -C display
+``` 
+![lshw](images/hardware_check_lshw.png.png)
 
 ---
 
