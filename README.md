@@ -49,18 +49,25 @@ Coloque o seu S.O. e a versão da placa de vídeo que consultamos no **Passo 1**
 
 ### Passo 2.1: Instalar os Drivers da GPU usando o terminal
 
-Abra o terminal e insira: 
-`apt search nvidia-driver`
+Abra o terminal e insira:
+```
+apt search nvidia-driver
+```
 
 Para pesquisar os pacotes necessários: 
-`apt-cache search nvidia-driver`
+```
+apt-cache search nvidia-driver
+```
 
 Após verificar qual são os drivers disponíveis instale o driver pertinente ao seu computador através do comando: 
-`sudo apt install nvidia-driver<numero_do_driver_aqui>`
+```
+sudo apt install nvidia-driver<numero_do_driver_aqui>
+```
 
 Reinicie o linux:
-`sudo reboot`
-
+```
+sudo reboot
+```
 
 ### Passo 3: Verificar se o driver foi instalado com sucesso
 
