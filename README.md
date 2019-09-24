@@ -1,9 +1,9 @@
 ---
-title: Laboratório Ágil
+Insper: Laboratório Ágil
 date: Outubro 2019
 ---
 
-Instalação driver Nvidia no Linux
+Guia de Instalação de Drivers Nvidia no Linux (Ubuntu 18.04LTS)
 ===
 
 Instalar os drivers das GPUs da Nvidia no linux nem sempre é uma tarefa trivial. Nesse guia espero esclarecer alguns pontos para que seja mais fácil para você entender o que está acontecendo durante a instalação.
@@ -66,6 +66,8 @@ Reinicie o linux:
 ```
 sudo reboot
 ```
+
+---
 
 ### Passo 3: Verificar se o driver foi instalado com sucesso
 
