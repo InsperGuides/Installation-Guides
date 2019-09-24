@@ -1,5 +1,5 @@
 ---
-Insper: Laboratório Ágil
+Insper: Engenharia da Computação
 date: Outubro 2019
 ---
 
