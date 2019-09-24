@@ -80,7 +80,7 @@ nvidia-smi
 
 Ele irá te mostrar um detalhamento da sua placa:
 
-![imagem do driver instalado com sucesso](/engcorp/Pictures/driver_intalled.png)
+![imagem do driver instalado com sucesso](images/nvidia-smi.png)
 
 ---
 
